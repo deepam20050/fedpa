@@ -20,7 +20,7 @@ from typing import List, Optional, Tuple
 import attr
 import jax.numpy as jnp
 import numpy as np
-from jax.api import jit
+from jax import jit
 from sklearn import datasets
 
 from .base import Dataset, Objective, ObjectiveParams, StochasticObjective
